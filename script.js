@@ -82,7 +82,7 @@ let average = 0;
 let p = 0;
 for (let i = 0; i < 5; i++) {
     p = p + numbers[i];
-    average = p/i;
+    average = p/(i+1);
 }
 console.log("Average: " + average);
 // STEP 8: Count how many numbers are even.
