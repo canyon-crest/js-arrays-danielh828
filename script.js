@@ -79,8 +79,10 @@ console.log("Sum: " + sum);
 //         Print: console.log("Average: " + average)
 //         (No rounding needed)
 let average = 0;
+let p = 0;
 for (let i = 0; i < 5; i++) {
-    average = (average + numbers[i])/(i+1);
+    p = p + numbers[i];
+    average = p/i;
 }
 console.log("Average: " + average);
 // STEP 8: Count how many numbers are even.
